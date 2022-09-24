@@ -48,4 +48,9 @@ public class GoogleStepDefs {
     public void verify_the_page_title_contains(String string) {
         Assert.assertTrue(Driver.getDriver().getTitle().contains(string));
     }
+    @Then("verify test case fails")
+    public void verify_test_case_fails() {
+//failing this on purpose for failed test case
+        Assert.assertTrue(false);
+    }
 }

@@ -3,7 +3,7 @@ Feature: Search Feature
   Background: User_goes_to_google
     Given user enters to application url
 
-  @customer_login
+  @customer_login1
   Scenario: TC01_customer_logs_in_application
     When user is on the application website
     Then user clicks on the login button

@@ -13,3 +13,4 @@ Feature: customer_login_feature
       |customer1@bluerentalcars.com|12346     |
       |customer2@bluerentalcars.com |12347     |
       |customer3@bluerentalcars.com|12348     |
+      |customer4@bluerentalcars.com|12322     |
